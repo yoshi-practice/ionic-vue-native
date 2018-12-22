@@ -1,29 +1,59 @@
-# ionic_vue_native
+# ionic with Vue.js native application sample
 
-## Project setup
+## Setup - 設定
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+$ npm install
 ```
 
-### Compiles and minifies for production
+### Compiles and hot-reloads - コンパイル・ホットリロード
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+$ npm run serve
 ```
 
-### Lints and fixes files
+### Compiles and minifies for production - コンパイル・圧縮（プロダクション環境）
 ```
-npm run lint
+$ npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Run your tests - テストラン
+```
+$ npm run test
+```
+
+### Lints and fixes files - リント・修復
+```
+$ npm run lint
+```
+
+### Rename `dist` to `www` - ファイルのリネーム
+
+```
+$ mv dist www
+```
+
+### Add platform - プラットフォームの追加
+
+```
+$ npx cap add ios        // iOS
+$ npx cap add android    // Android
+```
+
+### Sync - 同期
+
+```
+$ npx cap sync
+```
+
+### Run with iOS - iOSでのRun
+
+```
+$ npx cap open ios
+```
+
+### Run with Android - AndroidでのRun
+
+```
+$ npx cap open android
+```
+
+
