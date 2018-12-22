@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ionic_vue_native</string>
+    <string name="title_activity_main">ionic_vue_native</string>
+    <string name="package_name">com.yoshi1125hisa.ionic_vue_native</string>
+    <string name="fileprovider_authority">com.yoshi1125hisa.ionic_vue_native.fileprovider</string>
+    <string name="custom_url_scheme">com.yoshi1125hisa.ionic_vue_native</string>
+</resources>
